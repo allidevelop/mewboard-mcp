@@ -3,12 +3,25 @@
   "name": "com.mewboard/mewboard",
   "title": "Mewboard",
   "description": "Projects, issues, comments, files, clients and project money in Mewboard, a board shared with AI.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://mewboard.com",
+  "repository": {
+    "url": "https://github.com/allidevelop/mewboard-mcp",
+    "source": "github"
+  },
   "icons": [
-    { "src": "https://mewboard.com/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+    {
+      "src": "https://mewboard.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://app.mewboard.com/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://app.mewboard.com/mcp"
+    }
   ]
 }
