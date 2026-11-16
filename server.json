@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mewboard/mewboard",
+  "title": "Mewboard",
+  "description": "Projects, issues, comments, files, clients and project money in Mewboard, a board shared with AI.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mewboard.com",
+  "icons": [
+    { "src": "https://mewboard.com/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://app.mewboard.com/mcp" }
+  ]
+}
